@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "request": "launch",
+            "name": "Launch Voter App",
+            "mainClass": "${workspaceFolder}/app/src/main/java/com/example/Main.java",
+            "args": [],
+            "cwd": "${workspaceFolder}/app"
+        }
+    ],
+    "inputs": [
+        {
+            "type": "promptString",
+            "id": "mainClass",
+            "description": "Path to the main class file"
+        }
+    ]
+}
